@@ -6,3 +6,4 @@ The project is mainly about reading the ambient temperature and humidity using a
 - The - or ground is connected to the GND pin of the ESP32
 + The midle pin or data pin is connected the GPIO4 of the ESP32
 + The DHT sensor library for ESPx by Bernd Giesecke is required 
+https://wokwi.com/projects/355569587735816193
