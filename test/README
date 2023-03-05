@@ -1,0 +1,17 @@
+
+This directory is intended for PlatformIO Test Runner and project tests.
+
+The project is mainly about reading the ambian temperature and humidity using a DHT11 sensor and an ESP32
+Pin Configuration
++ or VCC is connected to the 3V3 or 3.3V pin of the ESP32
+- or ground is connected to the GND pin of the ESP32
+The midle pin or data pin is connected the GPIO4 of the ESP32
+The DHT sensor library for ESPx by Bernd Giesecke is required 
+
+Worrking Principle
+The ESP32 gets temperature, humidity and heat index value from the sensor and print them out to the serial monitor every 1 second
+
+
+
+More information about PlatformIO Unit Testing:
+- https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
