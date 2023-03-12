@@ -1,5 +1,5 @@
 #include <Arduino.h> // Include the Arduino Framework
-#include "DHTesp.h" // Include the DHT librairy for the ESPx
+
 
 // This version of the code include an LCDdisplay to print the
 #include<main.h>
@@ -28,7 +28,7 @@ void setup(){
   // put your setup code here, to run once:
   Serial.begin(9600);
   Serial.println("Hello, ESP32!");
-  dht.setup(4, DHTesp::DHT11);   // If you are using the DHT22, you just need to change the value 11 to 22
+  dht.setup(DHT_Pin, DHTesp::DHT11);   // If you are using the DHT22, you just need to change the value 11 to 22
   delay(dht.getMinimumSamplingPeriod());
   Serial.println(dht.getStatusString());
   lcd.init();                    
