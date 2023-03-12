@@ -8,5 +8,5 @@ The project is mainly about reading the ambient temperature and humidity using a
 + The DHT sensor library for ESPx by Bernd Giesecke is required 
 + The simualtion of version 1.0 is avaliable on Wokwi.com at 
 + https://wokwi.com/projects/355569587735816193
-+ The si,ualtion of version 1.0.1 is available at 
++ The simualtion of version 1.0.1 is available at 
 + https://wokwi.com/projects/358989916399451137
